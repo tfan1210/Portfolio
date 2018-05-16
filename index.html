@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Terence's Portfolio</title>
+  <!-- Bootstrap 4 CDN stylesheet -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- Customized stylesheet -->
+  <link href="./resources/css/style.css" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <div class="row">
+        <div class="col-md-6 col-sm-4 col-xs-4">
+          <img class="title-logo" src="./resources/images/logo.jpeg" style="border-radius: 50%" \>
+        </div>
+        <div class="title-super col-md-6 col-sm-8 col-xs-8 text-right text-uppercase">
+          <h1>Terence Fan</h1>
+          <h4>Front-End Developer</h4>
+          <button type="button" class="btn btn-outline-dark pull-right button-style" data-toggle='modal' data-target="#AboutMe">About Me</button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <hr>
+        </div>
+      </div>
+    </header>
+    <!-- cover image -->
+    <div class="row">
+      <div class="col-md-12">
+        <img class="img-fluid" src="./resources/images/Shanghai-min.jpg" alt="Responsive image" \>
+      </div>
+    </div>
+    <!-- Project Section -->
+    <section class="row">
+      <header class="col-md-12 section">
+        <h2 class="projects-title">Projects</h2>
+      </header>
+      <article class="col-md-4">
+        <img class="img-fluid img-thumbnail rounded mouse-hover" data-toggle="modal" data-target="#trackster" src="./resources/images/trackster.png" alt="trackster project" \>
+        <h3 class="title">Trackster</h3>
+      </article>
+      <article class="col-md-4">
+        <img class="img-fluid img-thumbnail rounded mouse-hover" data-toggle="modal" data-target="#jumpstart" src="./resources/images/jumpstart.png" alt="A responsive web" \>
+        <h3 class="title">Jumpstart</h3>
+      </article>
+      <article class="col-md-4">
+        <img class="img-fluid img-thumbnail rounded mouse-hover" data-toggle="modal" data-target="#tea-cozy" src="./resources/images/tea-cozy.png" alt="tea-cozy" \>
+        <h3 class="title">Tea Cozy</h3>
+      </article>
+      <article class="col-md-4">
+        <img class="img-fluid img-thumbnail rounded mouse-hover" data-toggle="modal" data-target="#colmar-academy" src="./resources/images/colmar-academy.png" alt="Colmar Academy Webpage" \>
+        <h3 class="title">Colmar Academy</h3>
+      </article>
+      <article class="col-md-4">
+        <img class="img-fluid img-thumbnail rounded mouse-hover" data-toggle="modal" data-target="#tortoiseshell-optics" src="./resources/images/tortoiseshell-optics.png" alt="tortoiseshell-optics" \>
+        <h3 class="title">Tortoiseshell Optics</h3>
+      </article>
+      <article class="col-md-4">
+        <img class="img-fluid img-thumbnail rounded mouse-hover" data-toggle="modal" data-target="#My-Times" src="./resources/images/My-Times.png" alt="My-Times" \>
+        <h3 class="title">MyTimes</h3>
+      </article>
+    </section>
+    <!-- footer -->
+    <footer class="col-md-12">
+      <p>Copyright © 2018 <a href="https://github.com/tfan1210" target="_blank">Terence Fan</a></p>
+    </footer>
+  </div>
+  <!-- Modal Popup Information AboutMe -->
+  <div class="modal fade" id="AboutMe" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Terence Fan</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        </div>
+        <div class="modal-body">
+          <img class="img-fluid img-thumbnail rounded" src="./resources/images/Terence.jpg" alt="responsive profile" style="margin-bottom: 20px" \>
+          <article>
+            <p class="text-center">Terence is a tech enthusiast who is curious on business strategy and entrepreneurship. He has worked in global consulting firm, tech start-up and as well post-ipo tech company. Although, his background has been in the IT industry, he has grown
+              a strong interest and passion in business entrepreneurship. His belief is that with strong interest and passion any thing can be achieved.</p>
+            <p class="text-center">He would also love to network with like-minded individuals who have strong passion in business entrepreneurship and like to make a difference in this world.</p>
+            <p class="text-center">
+              <a href="https://www.linkedin.com/in/terencefan/" style="color: black" target="_blank"><i class="fab fa-linkedin-in fa-2x"></i></a>
+              <a href="https://twitter.com/terencefan10" style="color: black; margin: 0 10px" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
+              <a href="https://www.instagram.com/terence.fan" style="color: black" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+            </p>
+          </article>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-outline-dark btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal Popup Information trackster -->
+  <div class="modal fade" id="trackster" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Trackster</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        </div>
+        <div class="modal-body text-center">
+          <h3>Trackster Information</h3>
+          <p>Last.fm-powered music searching app.</p>
+          <a href="https://tfan1210.github.io/Trackster/" target="_blank">
+            <p>Github Page</p>
+          </a>
+          <a href="https://github.com/tfan1210/Trackster" target="_blank">
+            <p>Source Code</p>
+          </a>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal Popup Information jumpstart -->
+  <div class="modal fade" id="jumpstart" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Jumpstart</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        </div>
+        <div class="modal-body text-center">
+          <h3>Jumpstart Information</h3>
+          <p>A responsive Bootstrap web page for a fictional crowdfunding company.</p>
+          <a href="https://tfan1210.github.io/Jumpstart/" target="_blank">
+            <p>Github Page</p>
+          </a>
+          <a href="https://github.com/tfan1210/Jumpstart/" target="_blank">
+            <p>Source Code</p>
+          </a>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal Popup Information teacozy -->
+  <div class="modal fade" id="tea-cozy" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Tea Cozy</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        </div>
+        <div class="modal-body text-center">
+          <h3>Tea Cozy Information</h3>
+          <p>A responsive webpage for a fictional tea shop.</p>
+          <a href="https://tfan1210.github.io/tea_cozy/" target="_blank">
+            <p>Github Page</p>
+          </a>
+          <a href="https://github.com/tfan1210/tea_cozy/" target="_blank">
+            <p>Source Code</p>
+          </a>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal Popup Information colmar academy -->
+  <div class="modal fade" id="colmar-academy" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Colmar Academy</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        </div>
+        <div class="modal-body text-center">
+          <h3>Colmar Academy Information</h3>
+          <p>A responsive webpage for a fictional school webpage.</p>
+          <a href="https://tfan1210.github.io/Colmar-Academy/" target="_blank">
+            <p>Github Page</p>
+          </a>
+          <a href="https://github.com/tfan1210/Colmar-Academy/" target="_blank">
+            <p>Source Code</p>
+          </a>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal Popup Information tortoiseshell-optics -->
+  <div class="modal fade" id="tortoiseshell-optics" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Tortoiseshell Optics</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        </div>
+        <div class="modal-body text-center">
+          <h3>Tortoiseshell Optics Information</h3>
+          <p>A responsive webpage for a fictional eyewear company.</p>
+          <a href="https://tfan1210.github.io/Tortoiseshell_Optics/" target="_blank">
+            <p>Github Page</p>
+          </a>
+          <a href="https://github.com/tfan1210/Tortoiseshell_Optics/" target="_blank">
+            <p>Source Code</p>
+          </a>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal Popup Information MyTimes -->
+  <div class="modal fade" id="My-Times" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">MyTimes</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        </div>
+        <div class="modal-body text-center">
+          <h3>MyTimes</h3>
+          <p>A webpage that is similiar to Times magazine.</p>
+          <a href="https://tfan1210.github.io/MyTimes/" target="_blank">
+            <p>Github Page</p>
+          </a>
+          <a href="https://github.com/tfan1210/MyTimes/" target="_blank">
+            <p>Source Code</p>
+          </a>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- Bootstrap 4 JS CDN -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>
