@@ -79,13 +79,17 @@ hr {
   cursor: pointer;
 }
 
-.pull-right {
-  float: right;
-}
-
 footer {
   margin-top: 50px;
   font-size: 1.2em;
   font-weight: 400;
   text-align: center;
+}
+
+.social-media a {
+  color: black;
+}
+
+.social-media a:nth-child(2) {
+  margin: 0 10px;
 }
